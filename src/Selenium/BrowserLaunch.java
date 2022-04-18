@@ -19,7 +19,7 @@ public class BrowserLaunch {
 		// 4 Simple alert
 		driver.get("http://www.leafground.com/pages/Alert.html"); 
 		
-		System.out.println("Amrutha - Hiii");
+		
 		
 		WebElement simple=driver.findElement(By.xpath("//button[text()='Alert Box']"));
 		simple.click();
