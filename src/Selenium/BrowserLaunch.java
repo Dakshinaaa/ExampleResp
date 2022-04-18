@@ -12,6 +12,7 @@ public class BrowserLaunch {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dakshina101\\eclipse-workspace\\Selenium7am\\Driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
+
 		driver.manage().window().maximize();
 		
 		driver.get("http://www.leafground.com/pages/Alert.html");
@@ -37,6 +38,8 @@ public class BrowserLaunch {
 		*/
 		
 		/* 3
+
+
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
 		WebElement user= driver.findElement(By.id("txtUsername"));
@@ -50,9 +53,11 @@ public class BrowserLaunch {
 		
 		WebElement forgot= driver.findElement(By.xpath("//div[contains(@id,'forgot')]//a"));
 		forgot.click();
+		
 		*/
 		
 		/* 2
+		driver.get("https://chromedriver.chromium.org/downloads");
 		driver.navigate().to("https://www.google.com/");
 		driver.navigate().back();
 		driver.navigate().forward();
@@ -60,6 +65,7 @@ public class BrowserLaunch {
 		*/
 		
 		/* 1
+		driver.get("https://chromedriver.chromium.org/downloads");
 		String title = driver.getTitle();
 		System.out.println(title);
 		
